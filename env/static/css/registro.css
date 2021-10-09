@@ -50,8 +50,8 @@ input[type="password"]
 {
     min-width: 20px;
     text-align: center;
-    width:15;
-    height:15;
+    width:15px;
+    height:15px;
 }
 .button
 {
