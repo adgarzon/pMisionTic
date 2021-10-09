@@ -18,6 +18,8 @@ body
 .formulario
 {
     background: white;
+    
+    margin: 100px 0px 0px 100px;
     margin-top: 150px;
     padding: 3px;
 }
@@ -47,8 +49,8 @@ input[type="password"]
 {
     min-width: 20px;
     text-align: center;
-    width:15;
-    height:15;
+    width:15px;
+    height:15px;
 }
 .button_ingresar
 {
