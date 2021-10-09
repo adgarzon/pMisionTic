@@ -34,25 +34,27 @@ h1
 input[type="text"],
 input[type="password"]
 {
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     padding: 10px;
-    border: 100px;
+    border: none;
     width: 90%;
+    outline: none;
 
 }
 .inputContenedor
 {
-    border-radius: 15px;
-    width: 98%;
+    border-radius: 10px;
     margin-bottom: 15px;
-    border: 1px solid #035358;
+    border: 1px solid #aaa;
+    background: #ffffff;
     
 }
 .icon
 {  
     min-width: 20px;
     text-align: center;
+    padding-left: 5px;
     width:15px;
     height:15px;
 }
