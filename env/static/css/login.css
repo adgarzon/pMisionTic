@@ -18,7 +18,7 @@ body
 .formulario
 {
     background: white;
-    
+    border-radius: 20px;
     margin: 100px 0px 0px 100px;
     margin-top: 150px;
     padding: 3px;
