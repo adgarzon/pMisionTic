@@ -82,8 +82,7 @@ p
 }
 @media (max-width:600px) {
     .formulario{
-        margin: 30px;
+        margin: 40px 0px 0px 40px ;
         width: 300px;
-        margin-top: 40px;
     }
 }
