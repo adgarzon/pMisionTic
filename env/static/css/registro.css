@@ -17,11 +17,15 @@ body
 .formulario
 {
     background-color: azure;
-    margin: 50px 800px 100px 100px;
-    padding: 4px;
+    margin: 100px 0px 0px 100px;
+    padding: 5px;
+    position: absolute;
+    width: 450px;
+    border-radius: 2%;
 }
 h1
 {
+    font-family: Harlow Solid Italic;
     text-align: center;
     color: #0b666d;
     font-size: 40px;
@@ -75,4 +79,10 @@ p
 }
 .link:hover{
     color: #6795af;
+}
+@media (max-width:600px) {
+    .formulario{
+        margin: auto;
+        width: 300px;
+    }
 }
