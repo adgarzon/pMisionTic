@@ -6,7 +6,7 @@ main=blueprints.Blueprint('main',__name__)
 
 @main.route('/')          
 def index():        
-    return render_template("index.html")
+    return render_template('login.html')
 
 @main.route('/registro',methods=['GET','POST'])          
 def registro():        
@@ -22,3 +22,4 @@ def registro():
 
         return render_template('login.html')
     return render_template("registro.html")
+
