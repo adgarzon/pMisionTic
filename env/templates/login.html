@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/login.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/registro.css')}}"/>
 </head>
 <body>
     <form class="formulario">
         <h1>Iniciar Sesión</h1>
         <div class="contenedor">
 
-            <div class="input-contenedor">
+            <div class="inputContenedor">
                 <input type="text" placeholder="Número de Identificación">
                 <img class="icon" src="{{url_for('static',filename='img/user.png')}}" >
             </div>
 
-            <div class="input-contenedor">
+            <div class="inputContenedor">
                 <input type="password" placeholder="Contraseña">
                 <img class="icon" src="{{url_for('static',filename='img/password.png')}}">
             </div>
 
-            <input type="submit" value="Acceder" class="button_ingresar">
+            <input type="submit" value="Acceder" class="button">
 
             <p>
                 ¿Aún no tienes cuenta?
