@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>registro</title>
-        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/registro.css')}}"/>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/estilo.css')}}"/>
         <meta charset="UTF-8">
     </head>
 
@@ -19,12 +19,12 @@
                     <input type="text" placeholder="Email" >
                     <img class="icon" src="{{url_for('static',filename='img/email.png')}}"  >
                 </div>
-                <div class="inputContenedor">
-                    <p style="text-align: left;">Tipo de documento:</p >
+                <div class="inputContenedor" style="padding: 10px;">
+                    <label> Tipo de documento:</label>
                     <label for="rCedula">CC</label>
-                    <input id="rCedula" type="radio" value="CC">
-                    <label for="rCedula">Ti</label>
-                    <input id="rCedula" type="radio" value="Ti">
+                    <input id="rCedula" type="radio" value="CC" name="documento">
+                    <label for="rTarjeta">Ti</label>
+                    <input id="rTarjeta" type="radio" value="Ti" name="documento">
                 </div>
                 <div class="inputContenedor">
                     <input type="text" placeholder="Numero de documento" style="width: 100%;">
