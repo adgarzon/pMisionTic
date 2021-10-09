@@ -8,8 +8,30 @@
     <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/login.css')}}"/>
 </head>
 <body>
-    <p>
-        Hol
-    </p>
+    <form class="Formulario">
+        <h1>Iniciar Cesión</h1>
+        <div class="contenedor">
+
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Número de Identificación">
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-user icon"></i>
+                <input type="password" placeholder="Contraseña">
+            </div>
+
+            <input type="submit" value="Acceder" class="button_ingresar">
+
+            <p>
+                ¿Aún no tienes cuenta?
+                <a class="link" href="login.html">
+                    Regístrate
+                </a>
+            </p>
+
+        </div>
+    </form>
 </body>
 </html>
