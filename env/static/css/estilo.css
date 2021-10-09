@@ -34,6 +34,7 @@ h1
 input[type="text"],
 input[type="password"]
 {
+    border-radius: 20px;
     font-size: 20px;
     padding: 10px;
     border: 100px;
@@ -42,13 +43,14 @@ input[type="password"]
 }
 .inputContenedor
 {
+    border-radius: 15px;
     width: 98%;
     margin-bottom: 15px;
     border: 1px solid #035358;
     
 }
 .icon
-{
+{  
     min-width: 20px;
     text-align: center;
     width:15px;
